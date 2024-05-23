@@ -1,6 +1,9 @@
-import './assets/main.css'
+import { createApp } from 'vue';
+import MainMenu from './components/MainMenu.vue';
+import router from './router/index.js';
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import './assets/main.css';
 
-createApp(App).mount('#app')
+const app = createApp(MainMenu); 
+app.use(router);
+app.mount('#app');

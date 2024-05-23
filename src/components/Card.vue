@@ -53,6 +53,7 @@ export default {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+   
 }
 
 .card-body {
